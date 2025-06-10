@@ -1,0 +1,3 @@
+/rshome/daikang.kuang/logicfactory_tool/FastEx/exact_synthesis_MSV/build/CMakeFiles/FastEX_exact_synthesis_MSV.dir
+/rshome/daikang.kuang/logicfactory_tool/FastEx/exact_synthesis_MSV/build/CMakeFiles/edit_cache.dir
+/rshome/daikang.kuang/logicfactory_tool/FastEx/exact_synthesis_MSV/build/CMakeFiles/rebuild_cache.dir

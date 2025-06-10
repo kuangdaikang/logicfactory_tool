@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/DITT.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/DITT.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/experiment/main.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/experiment/main.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/exact_synthesis/MSV.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/exact_synthesis/MSV.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/exact_synthesis/SSV.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/exact_synthesis/SSV.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/exact_synthesis/boolean.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/exact_synthesis/boolean.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/exact_synthesis/encoder.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/exact_synthesis/encoder.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/exact_synthesis/encoding.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/exact_synthesis/encoding.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/incremental/dsd.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/incremental/dsd.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/incremental/incremental.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/incremental/incremental.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/netlist/io.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/netlist/io.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/netlist/netlist.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/netlist/netlist.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/netlist/rewrite.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/netlist/rewrite.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/power/power.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/power/power.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/utility/boolean_feature.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/utility/boolean_feature.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/utility/synthesis.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/utility/synthesis.cpp.o.d"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/utility/utility.cpp.o"
+  "CMakeFiles/FastEX_exact_synthesis_DITT.dir/rshome/daikang.kuang/logicfactory_tool/FastEx/share/utility/utility.cpp.o.d"
+  "FastEX_exact_synthesis_DITT"
+  "FastEX_exact_synthesis_DITT.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/FastEX_exact_synthesis_DITT.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
