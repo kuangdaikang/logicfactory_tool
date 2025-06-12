@@ -136,7 +136,6 @@ void pre_process(PASyn::Netlist &netlist, PASyn::Technology &technology) {
         queue.emplace(node);
     }
     std::map<std::string, int> topology_count;
-
     for (auto &node: netlist.nodes) {
         topology_count[node->name] = int(node->inputs.size());
     }
@@ -492,8 +491,8 @@ double calculate_wire_power(PASyn::Netlist &netlist, PASyn::Technology &technolo
 std::vector<double> PASyn::calculate_power(Netlist &netlist, Technology &technology) {
     std::vector<double> result;
     pre_process(netlist, technology);
-    for(auto node: netlist.nodes)
-        std::cout<<node->load_capacitance<<" "<<node->max_depth<<"\n";
+    // for(auto node: netlist.nodes)
+    //     std::cout<<node->load_capacitance<<" "<<node->max_depth<<"\n";
         
     calculate_probability_1(netlist);
     /*
@@ -529,6 +528,6 @@ std::vector<double> PASyn::calculate_power_api(std::string &input, std::string &
     Netlist netlist{};
     read_liberty(technology_input, technology);
     switch_pre_process(technology);
-    PASyn::read_blif(input, netlist);
+    PASyn::read_blif(input, netlist, &technology);
     return calculate_power(netlist, technology);
 }

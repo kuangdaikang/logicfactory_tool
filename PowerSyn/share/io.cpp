@@ -488,10 +488,10 @@ void PASyn::read_liberty(const std::string &file, Technology &technology) {
                     }
                 }
             }
-            if(name.find("CLKBUF") != std::string::npos)
-                name=name.insert(name.size()-2, "_X");
-            else
-                name=name.insert(name.rfind('X'), "_");
+            // if(name.find("CLKBUF") != std::string::npos)
+            //     name=name.insert(name.size()-2, "_X");
+            // else
+            //     name=name.insert(name.rfind('X'), "_");
             Cell *cell = new Cell(name, area, leakage, inputs, outputs, function_str, ave_delay/delay_count, ave_internal/internal_count);
             if(num_output != 1)
                 continue;
