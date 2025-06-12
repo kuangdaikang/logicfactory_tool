@@ -106,7 +106,6 @@ NET::Function::Function(int _num_input, const std::string &_function) {
             inputs.emplace_back(i == '1' ? 1 : (i == '0' ? 0 : -1));
         function.emplace_back(inputs, _temp_str[1] == "1");
     }
-
     if (_num_input <= 2) {
         type = FunctionType.at(_function);
     }

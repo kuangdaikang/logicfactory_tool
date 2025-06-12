@@ -250,6 +250,8 @@ void NET::read_netlist_library(const std::string &library_file,
 
             sin >> output_node_index;
             // Add primary outputs
+            if (output_node_index == 0)
+                output_node_index = num_nodes + num_inputs;
             netlist->outputs.emplace_back(netlist->has_node("n_" + std::to_string(output_node_index)));
             library[std::make_pair(truth_table, label)] = netlist;
         } else {
