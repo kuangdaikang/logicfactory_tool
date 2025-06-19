@@ -17,7 +17,7 @@ int main() {
     exact::Encoding encoding = msv.encode(true);
 
     // 指定 SAT 编码输出文件的路径
-    std::string sat_output_path = "/rshome/daikang.kuang/logicfactory_tool/FastEx/exact_synthesis_MSV/experiment/output.cnf";
+    std::string sat_output_path = "../experiment/output.cnf";
     std::ofstream sat_file(sat_output_path);
     if (!sat_file.is_open()) {
         std::cerr << "Failed to open SAT output file: " << sat_output_path << std::endl;
@@ -31,7 +31,7 @@ int main() {
     auto sat_solution = exact::synthesis(&msv, "kissat", std::cout);
 
     // 指定解码后的逻辑电路输出文件的路径
-    std::string circuit_output_path = "/rshome/daikang.kuang/logicfactory_tool/FastEx/exact_synthesis_MSV/experiment/decoded_circuit.blif";
+    std::string circuit_output_path = "../experiment/decoded_circuit.blif";
     msv.decode(sat_solution.second, circuit_output_path);
 
     std::cout << "Decoded circuit written to " << circuit_output_path << std::endl;

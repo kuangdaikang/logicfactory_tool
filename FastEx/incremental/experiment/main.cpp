@@ -65,14 +65,14 @@ int main(int argc, char** argv) {
         data_set = "full";
     int num_inputs = std::stoi(argv[2]);
 
-    std::ifstream fin("/rshome/daikang.kuang/logicfactory_tool/FastEx/incremental/experiment/documents/dsd/" + data_set + "_dsd_" + std::to_string(num_inputs) + ".txt");
+    std::ifstream fin("../experiment/documents/dsd/" + data_set + "_dsd_" + std::to_string(num_inputs) + ".txt");
     assert(fin.is_open());
     std::string exp, hex, temp;
     int count = 0;
     //int start = std::stoi(argv[5]);
     while (fin>>hex>>temp>>exp>>temp && count < 2000) {
     //hex = "00000000000021a2", exp = "!++!A!B[", temp = "1101111001011101";
-        std::ofstream fout("/rshome/daikang.kuang/logicfactory_tool/FastEx/incremental/experiment/incremental/" + data_set + "/result_ours_" + std::to_string(num_inputs) + ".txt",std::ios::app | std::ios::out);
+        std::ofstream fout("../experiment/incremental/" + data_set + "/result_ours_" + std::to_string(num_inputs) + ".txt",std::ios::app | std::ios::out);
         count++;
         //if (num_inputs > 4 && ((count % 50 != 0) || (count < 50 * start)))
         //    continue;

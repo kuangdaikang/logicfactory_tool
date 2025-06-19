@@ -93,7 +93,7 @@
      std::string solver = "z3";
      std::string encoding_method = "SSV";
      std::string symmetry = "";
-     std::ifstream fin("/rshome/daikang.kuang/logicfactory_tool/FastEx/power/experiment/documents/_" + std::to_string(num_inputs) + "input_npn.txt");
+     std::ifstream fin("../experiment/documents/_" + std::to_string(num_inputs) + "input_npn.txt");
      assert(fin.is_open());
      std::string temp;
      int temp_int;

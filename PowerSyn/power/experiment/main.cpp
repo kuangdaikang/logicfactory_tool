@@ -1,8 +1,8 @@
 #include "../../share/netlist.h"
 
 int main() {
-    std::string input = "/rshome/sunan.zou/thirdparty/logicfactory_tool/PowerSyn/power/experiment/input.blif";
-    std::string technology_input = "/rshome/daikang.kuang/logicfactory_tool/PowerSyn/power/experiment/technology.lib";
+    std::string input = "../experiment/input.blif";
+    std::string technology_input = "../experiment/technology.lib";
     bool gym_using = 0; // 如果需要使用 gym 模式，设置为 true
     std::vector<double> power_data = PASyn::calculate_power_api(input, technology_input, gym_using);
 
