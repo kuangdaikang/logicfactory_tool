@@ -1,0 +1,7 @@
+# Cadence Genus(TM) Synthesis Solution, Version 19.12-s121_1, built Dec  3 2019 15:07:17
+
+# Date: Tue Feb 22 20:51:11 2022
+# Host: ceca20 (x86_64 w/Linux 3.10.0-1160.49.1.el7.x86_64) (10cores*40cpus*2physical cpus*Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 25600KB)
+# OS:   CentOS Linux release 7.9.2009 (Core)
+
+source flow.tcl
