@@ -47,12 +47,13 @@ install_package_editable() {
 }
 
 # 安装所有本地包
-install_package_editable "./gym-genus"
-install_package_editable "./gym-netlist"
-install_package_editable "./abc/ABC-python"
+install_package_editable "./sources/PowerAwareSynthesis/gym-genus"
+install_package_editable "./sources/PowerAwareSynthesis/netlist/abc/ABC-python"
 
-cd ./abc
-make
+
+# 编译abc工具
+cd ./sources/PowerAwareSynthesis/netlist/abc
+make -j 50
 cd - > /dev/null
 
 echo "=== 本地包安装完成（可编辑模式）==="
